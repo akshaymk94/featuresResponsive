@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.page-header {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    border:none;
+    background: #555;
+    text-align: center;
+}
+
+#brandName {
+    position: relative;
+    display: inline-block;;
+    font-size: 28px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.moduleHeader {
+    position:relative;
+    display: block;
+    font-size: 18px;
+    background: #eee;
+}
+
+#features {
+    padding-top: 60px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+.sandwich {
+    position: relative;
+    float: right;
+    color: white;
+    padding: 9px;
+    font-size: 16px;
+}
+
+.sandwich:hover {
+    cursor: pointer;
+}
+
+.sidebar-content {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #747EFF;
+    z-index: 100;
+    padding: 0;
+}
+
+.hideSidebar {
+    float: right;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.hideSidebar:hover {
+    cursor: pointer;
+    background: #9AA1FF;
+}
+
+.sidebar-top {
+    color: white;
+    text-align: center;
+    background: #616BFF;
+    padding: 0;
+}
+
+.sidebar-header {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.nav-item {
+    display: block;
+    padding: 10px 0 10px 10px;
+    font-size: 16px;
+    border-bottom: solid 1px #9AA0FF;
+    margin: 0;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    background: #6973FF;
+}
+
+.nav-item span {
+    color: white;
+    display: inline;
+}
+
+#grids {
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#grids li {
+    padding: 10px;
+    background: #F8F8F8;
+    -webkit-border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#grids li h3 {
+    font-weight: bold;
+}
+
+#footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    background: #111;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+
+#footer ul {
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-item {
+    position: relative;
+    display: inline;
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.footer-item:hover {
+    cursor: pointer;
+    color: #aaa;
+}
+
+
+
+
+/* media queries */
+@media screen and (min-width:768px) {
+    
+    .page-header {
+        height: 50px;
+    }
+    
+    #brandName {
+        float: left;
+        padding: 5px;
+    }
+    
+    .moduleHeader {
+        background: none;
+        float: right;
+        padding: 15px 10px 0;
+        box-sizing: border-box;
+        color: #eee;
+        font-size: 18px;
+    }
+    
+    .sandwich {
+        padding: 11px;
+        font-size: 20px;
+    }
+    
+    .sidebar-content {
+        width: 120px;
+    }
+    
+    .hideSidebar {
+        padding: 7px;
+        margin: 10px 3px 0 0;
+        font-size: 16px;
+    }
+    
+    .sidebar-header {
+        font-size: 20px;
+    }
+    .nav-item a span {
+        font-size: 24px;
+        padding: 0 22px;
+    }
+    
+    .nav-item .title {
+        display: none;
+    }
+   
+    .overlay {
+         width: 100vw;
+        height: 100vh;
+        display: none;
+        background: rgba(0, 0, 0, 0.8);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    
+    #footer {
+        height: 50px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    #footer #footer-content ul li {
+        margin: 0;
+    }
+    
+    #features {
+        margin-bottom: 50px;
+    }
+    
+    #footer-content span {
+        margin-right: 15px;
+        text-align: center;
+    }
+    
+    #footer-content span, #footer-content ul {
+        display: inline;
+    }
+}
+
+@media screen and (min-width:970px) {
+    
+    .nav-item a .title {
+        display: inline;
+    }
+    
+    .nav-item a span {
+        font-size: 18px;
+        padding: 10px 2px;
+    }
+    
+    .sidebar-content {
+        width: 200px;
+    }
+    
+    .sidebar-header {
+        font-size: 24px;
+    }
+    
+    #footer-content span, #footer-content ul {
+        display: inline;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
